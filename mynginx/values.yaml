@@ -1,0 +1,6 @@
+namespace: default
+replicas: 3
+image: nginx
+containerPort: 80
+service:
+  port: 80
