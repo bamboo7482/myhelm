@@ -3,7 +3,7 @@ entries:
   myhttpd:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-11-25T11:12:24.471579842+07:00"
+    created: "2020-11-27T17:08:56.421281013+07:00"
     description: A Helm my httpd
     digest: 5214f5d18ad2a9593dea763bfe8e7192c6d02cc968c07a75ba4858dd1c140766
     name: myhttpd
@@ -14,7 +14,7 @@ entries:
   mynginx:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-11-25T11:12:24.476921947+07:00"
+    created: "2020-11-27T17:08:56.422031801+07:00"
     description: A Helm chart for Kubernetes
     digest: aa42ada40f5ac2365304dc6169ff918fe9610faea6ef73b895a03b2fa1bf57fe
     name: mynginx
@@ -22,4 +22,15 @@ entries:
     urls:
     - publish/mynginx-0.1.0.tgz
     version: 0.1.0
-generated: "2020-11-25T11:12:24.469976826+07:00"
+  p-dev:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-11-27T17:08:56.422285854+07:00"
+    description: A Helm template for Vault
+    digest: 4ee38c2c28d0c1ee2d3fa54efc633d947cfcd3cee94a82869560a30bfc31651f
+    name: p-dev
+    type: application
+    urls:
+    - publish/p-dev-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-11-27T17:08:56.415629688+07:00"
